@@ -1,0 +1,91 @@
+# ============================================
+# FLUTTER / DART
+# ============================================
+
+# Compiled files
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+.idea/
+.dart_tool/
+
+# Generated plugin registrant
+lib/generated_plugin_registrant.dart
+
+# Flutter dependencies
+pubspec.lock
+
+# ============================================
+# ANDROID
+# ============================================
+
+**/android/app/release/
+**/android/key.properties
+**/android/local.properties
+**/android/.gradle/
+**/android/captures/
+**/android/.idea/
+**/android/.settings/
+**/android/.project
+**/android/.classpath
+
+# ============================================
+# iOS
+# ============================================
+
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/DerivedData/
+**/ios/.generated/
+**/ios/Runner.xcworkspace/
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Flutter/Generated.xcconfig
+**/ios/Runner.xcodeproj/project.xcworkspace/
+
+# ============================================
+# VS CODE / EDITOR / TOOLS
+# ============================================
+
+.vscode/
+.idea/
+*.iml
+
+# ============================================
+# LOGS / SYSTEM FILES
+# ============================================
+
+*.log
+*.tmp
+*.swp
+*.DS_Store
+Thumbs.db
+
+# ============================================
+# PYTHON BACKEND 
+# ============================================
+
+backend/__pycache__/
+backend/.venv/
+backend/venv/
+backend/env/
+backend/*.pyc
+backend/*.pyo
+backend/output/
+backend/.mypy_cache/
+backend/.pytest_cache/
+
+# ============================================
+# ENVIRONMENT / CREDENTIALS
+# ============================================
+
+*.env
+.env
+*.keystore
+*.pem
+*.p12
+*.jks
+*.key
